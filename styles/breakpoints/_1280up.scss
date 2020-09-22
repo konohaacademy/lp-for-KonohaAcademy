@@ -1,0 +1,51 @@
+/******************************************************************
+
+Stylesheet: 1280px以上のモニタで適用
+
+******************************************************************/
+// .travel {
+//   &__inner {
+//     padding: 50px 150px;
+//   }
+// }
+// .popular {
+//   &__item {
+//     flex-basis: 23%;
+//   }
+// }
+// .side {
+//   display: block;
+// }
+.c-link {
+  width: 55%;
+}
+.box {
+  width: 70% !important;
+  padding: 2em 2.5em;
+}
+
+.mt-xl {
+  margin-top: 100px !important;
+}
+
+#global-container {
+  position: relative;
+}
+
+#side-menu {
+  display: block;
+  top: 5%;
+  left: 80%;
+  width: 20%;
+  position: fixed;
+  margin: 0 !important;
+}
+
+#container {
+  width: 80%;
+  margin: 0 !important;
+}
+
+header {
+  display: none !important;
+}

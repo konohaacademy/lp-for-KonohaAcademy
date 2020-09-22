@@ -1,0 +1,102 @@
+/******************************************************************
+
+Stylesheet: 960px以上のモニタで適用
+
+******************************************************************/
+.font-sm {
+  font-size: 16px;
+}
+.font-md {
+  font-size: 19px;
+}
+.font-lr {
+  font-size: 23px;
+}
+.font-lg {
+  font-size: 25px;
+}
+.mb-lg {
+  margin-bottom: 60px !important;
+}
+.pb-lg {
+  padding-bottom: 60px !important;
+}
+
+.c-link {
+  width: 60%;
+}
+
+.mt-xl {
+  margin-top: 80px !important;
+}
+
+.contact-form {
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.contact-form .item input[type="text"],
+.contact-form .item input[type="email"],
+.contact-form .item textarea {
+  display: block;
+  margin-left: 60px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.box {
+  width: 80% !important;
+  padding: 1em 2em;
+}
+
+// .popular {
+//   &__item {
+//     flex-basis: 25%;
+//   }
+
+//   &__img {
+//     height: 335px;
+//   }
+// }
+
+// .travel {
+//   &__img {
+//     height: 400px;
+//   }
+
+//   &__description {
+//     margin-bottom: 40px;
+//   }
+//   &__title {
+//     &::before {
+//       display: block;
+//     }
+//   }
+// }
+
+// .footer {
+//   &__li {
+//     justify-content: flex-start;
+//   }
+// }
+
+// .header {
+//   &__nav {
+//     display: block;
+//   }
+// }
+
+// .mobile-menu {
+//     &__btn {
+//         display: none;
+//     }
+// }
+
+// .swiper-slide {
+//   box-shadow: 0 8px 40px -10px rgba(0, 0, 0, 0.8);
+// }

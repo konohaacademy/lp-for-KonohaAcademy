@@ -1,0 +1,96 @@
+/******************************************************************
+
+Stylesheet: 600px以上のタブレットやモニタで適用
+
+******************************************************************/
+
+#content {
+  & > .img-container {
+    height: 400px;
+  }
+
+  > .grade {
+    > .publish {
+      > .bg-white {
+        margin: 1em 15%;
+      }
+    }
+  }
+}
+
+#content {
+  & > .img-container {
+    & > .text__container {
+      & > .char {
+        letter-spacing: 2px;
+        font-size: 25px;
+        line-height: 400px;
+      }
+    }
+  }
+}
+
+.c-link {
+  width: 480px;
+}
+
+.mt-xl {
+  margin-top: 70px !important;
+}
+.box {
+  padding: 1em 1.5em;
+  font-size: 16px;
+}
+
+.contact-form .item input[type="text"],
+.contact-form .item input[type="email"],
+.contact-form .item textarea {
+  font-size: 15px;
+}
+// .flex {
+//     flex-direction: row;
+//     flex-wrap: wrap;
+// }
+
+// .houses {
+//     &__item {
+//         flex-basis: 50%;
+//         margin-bottom: 60px;
+//     }
+// }
+
+// .popular {
+//     &__container {
+//         justify-content: space-between;
+//     }
+
+//     &__item {
+//         flex-basis: 47%;
+//     }
+// }
+
+// .travel {
+//     &__inner {
+//         padding: 50px;
+//     }
+//     &__texts,
+//     &__img {
+//         flex-basis: 47%;
+//     }
+
+//     &__texts {
+//         display: flex;
+//         align-items: flex-end;
+//     }
+// }
+
+// .footer {
+//     & .logo {
+//         justify-content: flex-start;
+//     }
+
+//     &__li {
+//         margin-left: 0;
+//         margin-right: 30px;
+//     }
+// }
