@@ -580,7 +580,7 @@ ul.acheivement-example li:before {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(https://konohablog508.com/wp/wp-content/uploads/2020/05/joanna-kosinska-1_CMoFsPfso-unsplash-min.jpg);
+  background-image: url(../images/img8.jpg);
 }
 
 #content > .img-container > .text__container {
@@ -815,32 +815,32 @@ HTML SCSS JSResult EDIT ON .container {
 }
 
 .card__imgframe.img1 {
-  background: url(https://konohablog508.com/wp/wp-content/uploads/2020/05/istockphoto-498306460-612x612-min-min.jpg) no-repeat center;
+  background: url("../images/img7.jpg") no-repeat center;
   background-size: cover;
 }
 
 .card__imgframe.img2 {
-  background: url(https://konohablog508.com/wp/wp-content/uploads/2020/05/d099d886ed65ef765625779e628d2c5f.png) no-repeat center;
+  background: url("../images/img4.png") no-repeat center;
   background-size: cover;
 }
 
 .card__imgframe.img3 {
-  background: url(https://konohablog508.com/wp/wp-content/uploads/2020/05/eakkasit90191200190-min.jpg) no-repeat center;
+  background: url("../images/img5.jpg") no-repeat center;
   background-size: cover;
 }
 
 .card__imgframe.img4 {
-  background: url(https://konohablog508.com/wp/wp-content/uploads/2020/05/gettyimages-498916570-1024x1024-min.jpg) no-repeat center;
+  background: url("../images/img6.jpg") no-repeat center;
   background-size: cover;
 }
 
 .card__imgframe.img5 {
-  background: url(https://konohablog508.com/wp/wp-content/uploads/2020/05/37772735-flat-design-modern-vector-illustration-icons-set-of-online-education-and-and-e-learning-user-choose-min-min-2.jpg) no-repeat center;
+  background: url("../images/img1.jpg") no-repeat center;
   background-size: cover;
 }
 
 .card__imgframe.img6 {
-  background: url(https://konohablog508.com/wp/wp-content/uploads/2020/05/business-woman-presenting-report_107173-9632-min.jpg) no-repeat center;
+  background: url("../images/img3.jpg") no-repeat center;
   background-size: cover;
 }
 
