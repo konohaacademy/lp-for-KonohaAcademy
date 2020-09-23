@@ -49,3 +49,9 @@ Stylesheet: 1280px以上のモニタで適用
 header {
   display: none !important;
 }
+
+.contact-form .item input[type="text"],
+.contact-form .item input[type="email"],
+.contact-form .item textarea {
+  width: 90%;
+}

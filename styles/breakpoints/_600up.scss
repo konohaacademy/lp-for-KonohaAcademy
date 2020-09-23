@@ -47,6 +47,12 @@ Stylesheet: 600px以上のタブレットやモニタで適用
 .contact-form .item textarea {
   font-size: 15px;
 }
+
+.contact-form .item input[type="text"],
+.contact-form .item input[type="email"],
+.contact-form .item textarea {
+  width: 75%;
+}
 // .flex {
 //     flex-direction: row;
 //     flex-wrap: wrap;

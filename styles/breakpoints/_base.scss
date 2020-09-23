@@ -642,7 +642,7 @@ HTML SCSS JSResult EDIT ON .container {
   text-align: center;
   border-radius: 20px;
   box-shadow: 0 7px 12px rgba(0, 0, 0, 0.22);
-  overflow: hidden;
+  overflow: hidden !important;
   background-color: rgba(0, 51, 51, 0.02);
 
   img {
@@ -882,7 +882,7 @@ iframe {
 .contact-form .item textarea {
   display: block;
   margin-left: 60px;
-  width: 90%;
+  width: 70%;
   padding: 5px;
   border: 1px solid #ccc;
   box-sizing: border-box;

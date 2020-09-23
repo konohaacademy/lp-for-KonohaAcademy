@@ -54,6 +54,11 @@ Stylesheet: 960px以上のモニタで適用
   padding: 1em 2em;
 }
 
+.contact-form .item input[type="text"],
+.contact-form .item input[type="email"],
+.contact-form .item textarea {
+  width: 80%;
+}
 // .popular {
 //   &__item {
 //     flex-basis: 25%;
