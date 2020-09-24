@@ -1399,6 +1399,9 @@ Stylesheet: 1280px以上のモニタで適用
   header {
     display: none !important;
   }
+  #content {
+    margin-top: 0px !important;
+  }
   .contact-form .item input[type="text"],
   .contact-form .item input[type="email"],
   .contact-form .item textarea {
