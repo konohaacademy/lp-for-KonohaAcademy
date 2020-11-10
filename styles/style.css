@@ -580,7 +580,7 @@ ul.acheivement-example li:before {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(../images/img8.jpg);
+  background-image: url(../images/img8.png);
 }
 
 #content > .img-container > .text__container {
@@ -841,6 +841,11 @@ HTML SCSS JSResult EDIT ON .container {
 
 .card__imgframe.img6 {
   background: url("../images/img3.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.card__imgframe.img11 {
+  background: url("../images/img11.png") no-repeat center;
   background-size: cover;
 }
 
