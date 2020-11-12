@@ -248,6 +248,10 @@ body {
   font-size: 20px;
 }
 
+.font-huge {
+  font-size: 28px;
+}
+
 .mb-sm {
   margin-bottom: 16px !important;
 }
@@ -849,6 +853,262 @@ HTML SCSS JSResult EDIT ON .container {
   background-size: cover;
 }
 
+.card__imgframe.img12 {
+  background: url("../images/img12.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.card__imgframe.img13 {
+  background: url("../images/img13.png") no-repeat center;
+  background-size: cover;
+}
+
+.card__imgframe.img-math {
+  background: url("../images/math.png") no-repeat center;
+  background-size: cover;
+}
+
+.card__imgframe.img-english {
+  background: url("../images/english.png") no-repeat center;
+  background-size: cover;
+}
+
+.card__imgframe.img-science {
+  background: url("../images/science.png") no-repeat center;
+  background-size: cover;
+}
+
+.card__imgframe.img-social {
+  background: url("../images/social.png") no-repeat center;
+  background-size: cover;
+}
+
+.card__imgframe.img-japanese {
+  background: url("../images/japanese.png") no-repeat center;
+  background-size: cover;
+}
+
+.pricecards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-justify-content: center;
+  padding-left: 0 !important;
+  list-style: none;
+}
+
+.pricecard {
+  width: 90%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 45%;
+          flex: 0 0 45%;
+  text-align: center;
+  border: 1px solid #eee;
+  padding-bottom: 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 1em 3em;
+}
+
+.pricecard h3 {
+  font-size: 1.1em;
+  font-weight: bold;
+  line-height: 2.5em;
+  background: #a2bc10;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+
+.pricecard.premium {
+  border: 3px solid #06c7ea;
+  padding-bottom: 3rem;
+}
+
+.pricecard.premium h3 {
+  background: #06c7ea;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+
+.pricecard h4 {
+  font-size: 200%;
+  margin: 0 auto;
+  padding: 1rem 0 0;
+}
+
+.pricecard.premium h4 {
+  padding: 20px;
+}
+
+/* .pricecard a{
+            padding: 3px 5px;
+            background: #fb5859;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 3px;
+            display: inline-block;
+        } */
+.iremono {
+  border: 2px solid #eee;
+  border-radius: 10px;
+}
+
+.yellow-box {
+  width: 95%;
+  margin: 1em auto;
+  padding: 20px 20px 10px;
+  background-color: #fffacd;
+}
+
+.yellow-box-inner {
+  font-weight: bold;
+  font-size: 0.95em;
+  color: #8b4513;
+  line-height: 1.8em;
+  margin-bottom: 1em;
+}
+
+.blue-icon {
+  margin-top: 1em;
+}
+
+.pricecards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-justify-content: center;
+  padding-left: 0 !important;
+}
+
+.pricecard {
+  width: 90%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 45%;
+          flex: 0 0 45%;
+  text-align: center;
+  border: 1px solid #eee;
+  padding-bottom: 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 1em 3em;
+}
+
+.pricecard h3 {
+  font-size: 1.1em;
+  font-weight: bold;
+  line-height: 2.5em;
+  background: #a2bc10;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+
+.pricecard.premium {
+  border: 3px solid #06c7ea;
+  padding-bottom: 3rem;
+}
+
+.pricecard.premium h3 {
+  background: #06c7ea;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+
+.pricecard h4 {
+  font-size: 200%;
+  margin: 0 auto;
+  padding: 1rem 0 0;
+}
+
+.pricecard.premium h4 {
+  padding: 20px;
+}
+
+/* .pricecard a{
+            padding: 3px 5px;
+            background: #fb5859;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 3px;
+            display: inline-block;
+        } */
+@media screen and (max-width: 600px) {
+  .profile_card,
+  .pricecards,
+  .profile_cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .pricecard,
+  .card_photo {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+  }
+  .pricecard.premium {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    -webkit-order: 1;
+  }
+}
+
+.navy {
+  color: #000080;
+}
+
+.iremono {
+  border: 2px solid #eee;
+  border-radius: 10px;
+}
+
+.yellow-box {
+  width: 95%;
+  margin: 1em auto;
+  padding: 20px 20px 10px;
+  background-color: #fffacd;
+}
+
+.yellow-box-inner {
+  font-weight: bold;
+  font-size: 0.95em;
+  color: #8b4513;
+  line-height: 1.8em;
+  margin-bottom: 1em;
+}
+
+.blue-icon {
+  margin-top: 1em;
+}
+
 .btn_outer {
   width: 100% !important;
 }
@@ -867,7 +1127,7 @@ HTML SCSS JSResult EDIT ON .container {
   border-right: 6em solid #c12748;
   /* ラベルの色はここで変更 */
   position: absolute;
-  z-index: 100;
+  z-index: 90;
 }
 
 .triangle::after {
@@ -881,6 +1141,170 @@ HTML SCSS JSResult EDIT ON .container {
   right: 2px;
   position: absolute;
   z-index: 101;
+}
+
+.triangle.rank1::after {
+  content: "人気No.1";
+  display: block;
+  top: 22px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  color: #fff;
+  /* 文字色はここで変更 */
+  right: 2px;
+  position: absolute;
+  z-index: 101;
+}
+
+.triangle.rank2::after {
+  content: "人気No.2";
+  display: block;
+  top: 22px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  color: #fff;
+  /* 文字色はここで変更 */
+  right: 2px;
+  position: absolute;
+  z-index: 101;
+}
+
+.achievement__box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.achievement__box__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  height: 110px;
+  margin: 0.3em auto;
+  padding: 8px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 7px 12px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 7px 12px rgba(0, 0, 0, 0.22);
+}
+
+.achievement__box__content__img {
+  height: 94px;
+  width: 30%;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.achievement__box__content__img.english {
+  background-color: orange;
+}
+
+.achievement__box__content__img.math {
+  background-color: turquoise;
+}
+
+.achievement__box__content__img.science {
+  background-color: lightgreen;
+}
+
+.achievement__box__content__img.japanese {
+  background-color: #fadbda;
+}
+
+.achievement__box__content__img.social {
+  background-color: #ffcc00;
+}
+
+.achievement__box__content__img.others {
+  background-color: #eeeeee;
+}
+
+.achievement__box__content__img span {
+  line-height: 94px;
+  font-size: 19px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.achievement__box__content__textarea {
+  width: 70%;
+  height: 94px;
+  padding: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.achievement__box__content__textarea__text {
+  width: 45%;
+  height: 25px;
+  text-align: center;
+  margin: 4px 0px;
+}
+
+.achievement__box__content__textarea__text span.title {
+  line-height: 21px;
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: -2px;
+  padding: 0 3px;
+}
+
+.achievement__box__content__textarea__text span.title.point {
+  background-color: rgba(255, 255, 0, 0.5);
+}
+
+.achievement__box__content__textarea__text span.title.sp {
+  font-size: 19px;
+}
+
+.achievement__box__content__textarea__grade {
+  width: 27%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  padding-left: 10px;
+}
+
+.achievement__box__content__textarea__grade span.title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.achievement__box__content__textarea__school {
+  width: 27%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.achievement__box__content__textarea__school span.title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.achievement__box__content__textarea__detail {
+  width: 100%;
+  height: 64px;
+  padding-left: 5px;
+}
+
+.achievement__box__content__textarea__detail p {
+  font-size: 10px;
+  line-height: 1.5em;
+}
+
+.achievement__box__content__textarea__detail p span.point {
+  font-weight: 600;
+  background-color: rgba(255, 255, 0, 0.5);
 }
 
 .card__textbox {
@@ -1289,6 +1713,8 @@ Stylesheet: 600px以上のタブレットやモニタで適用
   }
   .c-link {
     width: 480px;
+    margin-left: 70px;
+    margin-right: 70px;
   }
   .mt-xl {
     margin-top: 70px !important;
@@ -1306,6 +1732,47 @@ Stylesheet: 600px以上のタブレットやモニタで適用
   .contact-form .item input[type="email"],
   .contact-form .item textarea {
     width: 75%;
+  }
+  .achievement__box__content {
+    height: 110px;
+  }
+  .achievement__box__content__img {
+    height: 94px;
+  }
+  .achievement__box__content__img span {
+    line-height: 94px;
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .achievement__box__content__textarea__text {
+    height: 35px;
+  }
+  .achievement__box__content__textarea__text span.title {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .achievement__box__content__textarea__text span.title.sp {
+    font-size: 25px;
+  }
+  .achievement__box__content__textarea__grade {
+    height: 35px;
+  }
+  .achievement__box__content__textarea__grade span.title {
+    font-size: 18px;
+    line-height: 35px;
+  }
+  .achievement__box__content__textarea__school {
+    height: 35px;
+  }
+  .achievement__box__content__textarea__school span.title {
+    font-size: 18px;
+    line-height: 35px;
+  }
+  .achievement__box__content__textarea__detail {
+    height: 59px;
+  }
+  .achievement__box__content__textarea__detail p {
+    font-size: 12px;
   }
 }
 
@@ -1335,6 +1802,8 @@ Stylesheet: 960px以上のモニタで適用
   }
   .c-link {
     width: 60%;
+    margin-left: 120px;
+    margin-right: 120px;
   }
   .mt-xl {
     margin-top: 80px !important;
@@ -1365,6 +1834,48 @@ Stylesheet: 960px以上のモニタで適用
   .contact-form .item input[type="email"],
   .contact-form .item textarea {
     width: 80%;
+  }
+  .achievement__box__content {
+    height: 120px;
+    width: 50%;
+  }
+  .achievement__box__content__img {
+    height: 104px;
+  }
+  .achievement__box__content__img span {
+    line-height: 104px;
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .achievement__box__content__textarea__text {
+    height: 40px;
+  }
+  .achievement__box__content__textarea__text span.title {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .achievement__box__content__textarea__text span.title.sp {
+    font-size: 23px;
+  }
+  .achievement__box__content__textarea__grade {
+    height: 40px;
+  }
+  .achievement__box__content__textarea__grade span.title {
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .achievement__box__content__textarea__school {
+    height: 40px;
+  }
+  .achievement__box__content__textarea__school span.title {
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .achievement__box__content__textarea__detail {
+    height: 64px;
+  }
+  .achievement__box__content__textarea__detail p {
+    font-size: 11px;
   }
 }
 
@@ -1409,6 +1920,12 @@ Stylesheet: 1280px以上のモニタで適用
   .contact-form .item input[type="email"],
   .contact-form .item textarea {
     width: 90%;
+  }
+  .achievement__box__content__textarea__text {
+    height: 40px;
+  }
+  .achievement__box__content__textarea__text span.title.sp {
+    font-size: 22px;
   }
 }
 

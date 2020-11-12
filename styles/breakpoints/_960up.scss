@@ -24,6 +24,8 @@ Stylesheet: 960px以上のモニタで適用
 
 .c-link {
   width: 60%;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 
 .mt-xl {
@@ -58,6 +60,55 @@ Stylesheet: 960px以上のモニタで適用
 .contact-form .item input[type="email"],
 .contact-form .item textarea {
   width: 80%;
+}
+
+.achievement {
+  &__box {
+    &__content {
+      height: 120px;
+      width: 50%;
+      &__img {
+        height: 104px;
+        span {
+          line-height: 104px;
+          font-size: 23px;
+          font-weight: 600;
+        }
+      }
+      &__textarea {
+        &__text {
+          height: 40px;
+          span.title {
+            font-size: 25px;
+            line-height: 40px;
+            &.sp {
+              font-size: 23px;
+            }
+          }
+        }
+        &__grade {
+          height: 40px;
+          span.title {
+            font-size: 18px;
+            line-height: 40px;
+          }
+        }
+        &__school {
+          height: 40px;
+          span.title {
+            font-size: 18px;
+            line-height: 40px;
+          }
+        }
+        &__detail {
+          height: 64px;
+          p {
+            font-size: 11px;
+          }
+        }
+      }
+    }
+  }
 }
 // .popular {
 //   &__item {

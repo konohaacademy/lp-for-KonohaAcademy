@@ -59,3 +59,18 @@ header {
 .contact-form .item textarea {
   width: 90%;
 }
+
+.achievement {
+  &__box {
+    &__content {
+      &__textarea {
+        &__text {
+          height: 40px;
+          span.title.sp {
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+}

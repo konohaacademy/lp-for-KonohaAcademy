@@ -32,6 +32,8 @@ Stylesheet: 600px以上のタブレットやモニタで適用
 
 .c-link {
   width: 480px;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 .mt-xl {
@@ -53,6 +55,71 @@ Stylesheet: 600px以上のタブレットやモニタで適用
 .contact-form .item textarea {
   width: 75%;
 }
+
+.achievement {
+  &__box {
+    &__content {
+      height: 110px;
+      &__img {
+        height: 94px;
+        span {
+          line-height: 94px;
+          font-size: 23px;
+          font-weight: 600;
+        }
+      }
+      &__textarea {
+        &__text {
+          height: 35px;
+          span.title {
+            font-size: 28px;
+            line-height: 35px;
+            &.sp {
+              font-size: 25px;
+            }
+          }
+        }
+        &__grade {
+          height: 35px;
+          span.title {
+            font-size: 18px;
+            line-height: 35px;
+          }
+        }
+        &__school {
+          height: 35px;
+          span.title {
+            font-size: 18px;
+            line-height: 35px;
+          }
+        }
+        &__detail {
+          height: 59px;
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// .profile_card,
+// .pricecards,
+// .profile_cards {
+//   flex-direction: column;
+//   -webkit-flex-direction: column;
+// }
+
+// .pricecard,
+// .card_photo {
+//   flex: 0 0 auto;
+//   -webkit-flex: 0 0 auto;
+// }
+// .pricecard.premium {
+//   order: 1;
+//   -webkit-order: 1;
+// }
 // .flex {
 //     flex-direction: row;
 //     flex-wrap: wrap;
