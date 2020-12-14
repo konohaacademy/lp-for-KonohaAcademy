@@ -697,6 +697,10 @@ HTML SCSS JSResult EDIT ON .container {
           align-items: center;
 }
 
+#intromovie {
+  margin: 3em auto;
+}
+
 .add-product {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
