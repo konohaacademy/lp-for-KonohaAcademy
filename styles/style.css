@@ -1202,6 +1202,11 @@ HTML SCSS JSResult EDIT ON .container {
           box-shadow: 0 7px 12px rgba(0, 0, 0, 0.22);
 }
 
+.achievement__box__content.aboutpass {
+  height: 100px;
+  padding: 0px;
+}
+
 .achievement__box__content__img {
   height: 94px;
   width: 30%;
@@ -1234,6 +1239,13 @@ HTML SCSS JSResult EDIT ON .container {
   background-color: #eeeeee;
 }
 
+.achievement__box__content__img.pass {
+  margin-top: 5px;
+  background-image: url(../images/img15.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .achievement__box__content__img span {
   line-height: 94px;
   font-size: 19px;
@@ -1250,6 +1262,10 @@ HTML SCSS JSResult EDIT ON .container {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.achievement__box__content__textarea.passtextarea {
+  width: 90%;
 }
 
 .achievement__box__content__textarea__text {
@@ -1306,9 +1322,24 @@ HTML SCSS JSResult EDIT ON .container {
   padding-left: 5px;
 }
 
+.achievement__box__content__textarea__detail.passdetail {
+  height: 35px;
+}
+
 .achievement__box__content__textarea__detail p {
   font-size: 10px;
   line-height: 1.5em;
+}
+
+.achievement__box__content__textarea__detail p.ft-lg {
+  background-image: url(../images/img15.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 15px;
+  padding-left: 57px;
+  line-height: 30px;
+  font-size: 26px;
+  font-weight: 600;
 }
 
 .achievement__box__content__textarea__detail p span.point {
@@ -1783,6 +1814,17 @@ Stylesheet: 600px以上のタブレットやモニタで適用
   .achievement__box__content__textarea__detail p {
     font-size: 12px;
   }
+  .achievement__box__content.aboutpass {
+    height: 100px;
+    padding: 0px;
+    width: 50%;
+  }
+  .achievement__box__content__textarea__detail p.ft-lg {
+    background-position: 15px;
+    padding-left: 54px;
+    line-height: 30px;
+    font-size: 23px;
+  }
 }
 
 @media (min-width: 960px) {
@@ -1886,6 +1928,17 @@ Stylesheet: 960px以上のモニタで適用
   .achievement__box__content__textarea__detail p {
     font-size: 11px;
   }
+  .achievement__box__content.aboutpass {
+    height: 100px;
+    padding: 0px;
+    width: 33%;
+  }
+  .achievement__box__content__textarea__detail p.ft-lg {
+    background-position: 8px;
+    padding-left: 48px;
+    line-height: 30px;
+    font-size: 23px;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -1935,6 +1988,17 @@ Stylesheet: 1280px以上のモニタで適用
   }
   .achievement__box__content__textarea__text span.title.sp {
     font-size: 22px;
+  }
+  .achievement__box__content.aboutpass {
+    height: 100px;
+    padding: 0px;
+    width: 50%;
+  }
+  .achievement__box__content__textarea__detail p.ft-lg {
+    background-position: 18px;
+    padding-left: 65px;
+    line-height: 30px;
+    font-size: 27px;
   }
 }
 
