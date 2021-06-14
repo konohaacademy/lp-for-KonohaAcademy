@@ -1,4 +1,5 @@
 #main-in {
+  position: relative;
   padding-left: 300px;
   width: fit-content;
 }
@@ -29,6 +30,7 @@
 }
 
 #sidebar {
+  position: relative;
   font-size: 15px;
   padding-top: 120px;
   width: 260px;
@@ -37,6 +39,7 @@
   color: #033560;
   background: #fff;
   text-align: center;
+  z-index: 10;
 }
 
 #global-nav ul {
@@ -278,7 +281,7 @@
     z-index: 400;
   }
   #nav-button {
-    z-index: 400;
+    z-index: 301;
   }
 }
 
