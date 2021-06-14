@@ -5,18 +5,10 @@
 }
 #main p {
   margin-bottom: 1em;
-  line-height: 1.9;
+  line-height: 2em;
 }
 #main .inner {
   padding: 60px;
-}
-
-#copyright a {
-  color: #666;
-  text-decoration: none;
-}
-#copyright a:hover {
-  text-decoration: underline;
 }
 
 /* ここから */
@@ -38,7 +30,7 @@
   position: fixed;
   color: #033560;
   background: #fff;
-  text-align: center;
+  // text-align: center;
   z-index: 10;
 }
 
@@ -53,7 +45,7 @@
 #global-nav a {
   color: #033560;
   text-decoration: none;
-  display: block;
+  display: inline-block;
   padding: 15px 0;
   -moz-transition: background-color 0.3s linear;
   -webkit-transition: background-color 0.3s linear;
@@ -148,7 +140,7 @@
     user-select: none;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    text-align: center;
+    // text-align: center;
     vertical-align: middle;
     text-decoration: none;
     letter-spacing: 0.1em;
@@ -295,7 +287,7 @@
 @media screen and (max-width: 400px) {
   #sidebar {
     right: -200px;
-    width: 200px;
+    width: 220px;
     padding-top: 60px;
   }
   .open #sidebar {

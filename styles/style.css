@@ -663,20 +663,11 @@ button {
 
 #main p {
   margin-bottom: 1em;
-  line-height: 1.9;
+  line-height: 2em;
 }
 
 #main .inner {
   padding: 60px;
-}
-
-#copyright a {
-  color: #666;
-  text-decoration: none;
-}
-
-#copyright a:hover {
-  text-decoration: underline;
 }
 
 /* ここから */
@@ -698,7 +689,6 @@ button {
   position: fixed;
   color: #033560;
   background: #fff;
-  text-align: center;
   z-index: 10;
 }
 
@@ -714,7 +704,7 @@ button {
 #global-nav a {
   color: #033560;
   text-decoration: none;
-  display: block;
+  display: inline-block;
   padding: 15px 0;
   -webkit-transition: background-color 0.3s linear;
   transition: background-color 0.3s linear;
@@ -813,7 +803,6 @@ button {
   user-select: none;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  text-align: center;
   vertical-align: middle;
   text-decoration: none;
   letter-spacing: 0.1em;
@@ -955,7 +944,7 @@ button {
 @media screen and (max-width: 400px) {
   #sidebar {
     right: -200px;
-    width: 200px;
+    width: 220px;
     padding-top: 60px;
   }
   .open #sidebar {
@@ -973,6 +962,378 @@ button {
   width: 35px;
   height: 30px;
   background: url(../../../images/logo.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon2::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/mail.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon3::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/uparrow.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon4::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/graduation.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon5::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/menu.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon6::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/question.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon7::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/fee.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon8::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/map.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon9::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/school.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon10::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/studyalone.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon11::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/hesitatetalk.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon12::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/cross.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon13::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/downgraph.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon14::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/1on1.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon15::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/feedbacksheet.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon16::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/map.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon17::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/smartphone.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon18::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/comment.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon19::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/sheetblack.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon20::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/graphs.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon21::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/piledbooks.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon22::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/tapphone.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon23::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/security.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon24::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/books.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon25::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/cheerup.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon26::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/questionsimple.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon27::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/time.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon28::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/share.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon29::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/sheet.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon30::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/book.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon31::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/lesson.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.before-icon32::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  background: url(../../../images/pen.png) no-repeat;
   background-size: contain;
   vertical-align: middle;
 }
@@ -1055,36 +1416,9 @@ ul.cp_list {
 }
 
 ul.cp_list li {
-  position: relative;
-  padding: 0.5em 1em 0.5em 2.3em;
+  padding: 0.5em 1em 0.5em 0.5em;
   margin-bottom: 5px;
   border-bottom: 1px solid #b99b00;
-}
-
-ul.cp_list li:after,
-ul.cp_list li:before {
-  content: "";
-  position: absolute;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-}
-
-ul.cp_list li:before {
-  top: 0.7em;
-  left: 0.2em;
-  width: 12px;
-  height: 12px;
-  border: 2px solid #b99b00;
-}
-
-ul.cp_list li:after {
-  top: 0.9em;
-  left: 0.7em;
-  width: 14px;
-  height: 14px;
-  background: #ceb849;
-  -webkit-transform: rotate(60deg);
-          transform: rotate(60deg);
 }
 
 .flex-parent {
@@ -1384,7 +1718,7 @@ img.main-img {
   -o-object-fit: contain;
      object-fit: contain;
   overflow: hidden;
-  background: url(https://pulpxstyle.com/wp-main/common/codepen/post25-codepen01.jpg) no-repeat center/cover;
+  background: url(../../../images/newtopimage.jpg) no-repeat center/cover;
 }
 
 @media screen and (min-width: 767px) {
@@ -1746,6 +2080,11 @@ body {
   display: block;
   width: inherit;
   margin: 0 auto;
+}
+
+.img-bright {
+  -webkit-filter: brightness(120%);
+          filter: brightness(120%);
 }
 
 @media (min-width: 480px) {
