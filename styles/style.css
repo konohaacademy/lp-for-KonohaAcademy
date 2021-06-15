@@ -1129,7 +1129,7 @@ button {
   height: 30px;
   -webkit-transform: translateX(-15px);
           transform: translateX(-15px);
-  background: url(../../../images/feedbacksheet.png) no-repeat;
+  background: url(../../../images/shareddata.png) no-repeat;
   background-size: contain;
   vertical-align: middle;
 }
@@ -1141,7 +1141,7 @@ button {
   height: 30px;
   -webkit-transform: translateX(-15px);
           transform: translateX(-15px);
-  background: url(../../../images/map.png) no-repeat;
+  background: url(../../../images/glassman.png) no-repeat;
   background-size: contain;
   vertical-align: middle;
 }
@@ -1764,7 +1764,6 @@ img.main-img {
 
 .contact-form .item {
   display: block;
-  overflow: hidden;
   margin-bottom: 10px;
 }
 
