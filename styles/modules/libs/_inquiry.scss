@@ -46,22 +46,22 @@
   border: 1px solid #ccc;
   resize: vertical;
 }
-input[type="submit"] {
-  border: none;
-  outline: none;
-  display: block;
-  line-height: 30px;
-  width: 160px;
-  text-align: center;
-  font-size: 13px;
-  color: #fff;
-  background-color: $mainDarkColor;
-  border-bottom: 4px solid #333;
-  cursor: pointer;
-  box-sizing: content-box;
-  transition: 0.3s ease all;
-}
-input[type="submit"]:hover {
-  border-bottom-width: 0;
-  transform: translateY(4px);
-}
+// input[type="submit"] {
+//   border: none;
+//   outline: none;
+//   display: block;
+//   line-height: 30px;
+//   width: 160px;
+//   text-align: center;
+//   font-size: 13px;
+//   color: #fff;
+//   background-color: $mainDarkColor;
+//   border-bottom: 4px solid #333;
+//   cursor: pointer;
+//   box-sizing: content-box;
+//   transition: 0.3s ease all;
+// }
+// input[type="submit"]:hover {
+//   border-bottom-width: 0;
+//   transform: translateY(4px);
+// }
