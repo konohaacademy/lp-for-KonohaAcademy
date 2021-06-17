@@ -335,6 +335,26 @@ button {
   padding: 10px;
 }
 
+@media screen and (min-width: 900px) {
+  .bg_diagonalline {
+    background-size: 25px 25px;
+    padding: 30px;
+  }
+  .bg_diagonalline p {
+    padding: 30px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .bg_rhombus {
+    background-size: 25px 25px;
+    padding: 40px;
+  }
+  .bg_dot {
+    background-size: 25px 25px;
+    padding: 40px;
+  }
+}
+
 .text-shadow {
   text-shadow: 10px 10px 0 #b99b00;
 }
@@ -1398,7 +1418,7 @@ button {
   }
   .list-card-caption {
     width: 60%;
-    font-size: 20px;
+    font-size: 19px;
   }
   .list-card-img {
     height: 120px;
@@ -1419,6 +1439,14 @@ ul.cp_list li {
   padding: 0.5em 1em 0.5em 0.5em;
   margin-bottom: 5px;
   border-bottom: 1px solid #b99b00;
+}
+
+@media screen and (min-width: 900px) {
+  ul.cp_list li {
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding: 0.5em 1em 0.5em 2em;
+  }
 }
 
 .flex-parent {
@@ -1564,6 +1592,12 @@ input[type="radio"] {
 #tab5:checked ~ .panel_area #panel5 {
   display: block;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .tab_panel p {
+    font-size: 16px;
+  }
 }
 
 .contact-form {
@@ -2087,6 +2121,86 @@ Stylesheet: 960px以上のモニタで適用
 ******************************************************************/
   .youtube {
     width: 60%;
+  }
+  .head1 {
+    font-size: 35px;
+  }
+  .head2 {
+    font-size: 25px;
+  }
+  .head3 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 17px;
+  }
+  .font-xs {
+    font-size: 14px;
+  }
+  .font-sm {
+    font-size: 16px;
+  }
+  .font-md {
+    font-size: 18px;
+  }
+  .font-lg {
+    font-size: 20px;
+  }
+  .font-xl {
+    font-size: 22px;
+  }
+  .cw-pc-90 {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1070px;
+  }
+  .cw-pc-80 {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1070px;
+  }
+  .cw-pc-70 {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1070px;
+  }
+  .cw-pc-60 {
+    width: 60%;
+    margin: 0 auto;
+    max-width: 1070px;
+  }
+  .cw-pc-50 {
+    width: 50%;
+    margin: 0 auto;
+    max-width: 1070px;
+  }
+  .cw-pc-40 {
+    width: 40%;
+    margin: 0 auto;
+    max-width: 1070px;
+  }
+  .cw-pc-30 {
+    width: 30%;
+    margin: 0 auto;
+    max-width: 1070px;
+  }
+  .cw-pc-20 {
+    width: 20%;
+    margin: 0 auto;
+    max-width: 1070px;
+  }
+  .cw-pc-10 {
+    width: 10%;
+    margin: 0 auto;
+    max-width: 1070px;
+  }
+  .cw-pc-600px {
+    width: 600px;
+    margin: 0 auto;
+    max-width: 1070px;
+  }
+  .pc-dis-none {
+    display: none;
   }
 }
 
