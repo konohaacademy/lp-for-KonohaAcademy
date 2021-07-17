@@ -751,11 +751,6 @@ button {
   background: #033560;
 }
 
-#global-nav .sub-menu-nav a,
-#global-nav .sub-menu:hover .sub-menu-nav {
-  width: 230px;
-}
-
 /* sub-menu icon */
 #global-nav .sub-menu-head {
   position: relative;
