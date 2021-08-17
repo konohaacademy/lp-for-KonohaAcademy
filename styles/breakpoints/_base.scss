@@ -40,6 +40,9 @@ body {
 .mb-xl {
   margin-bottom: 60px !important;
 }
+.mb-100 {
+  margin-bottom: 100px;
+}
 .mt-sm {
   margin-top: 20px !important;
 }
@@ -209,8 +212,11 @@ body {
 }
 
 .head1 {
-  text-align: center;
-  font-size: 30px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 // 見出しh2 data-numberを変えると表示される数字も変わる
