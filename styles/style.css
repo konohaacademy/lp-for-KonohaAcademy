@@ -2119,6 +2119,35 @@ body {
   height: 100%;
 }
 
+.instagram {
+  background: #fff;
+  height: 1000px;
+  margin: 0 auto;
+  width: 320px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .instagram-media {
+    margin: 0 -1px !important;
+    min-width: 100% !important;
+    border-right: none !important;
+    border-left: none !important;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .instagram-media {
+    padding-left: 20%;
+  }
+}
+
 .position-relative {
   position: relative;
 }
