@@ -38,6 +38,60 @@ ul.cp_list li {
 //   transform: rotate(60deg);
 // }
 
+ol.hukidasi-list {
+  counter-reset: list;
+  list-style-type: none;
+  font: 14px/1.6 "arial narrow", sans-serif;
+  padding: 0;
+  width: 90%;
+  margin: 0 auto;
+}
+ol.hukidasi-list li {
+  position: relative;
+  margin: 7px 0 7px 0px;
+  padding-left: 43px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 40px;
+  background-color: #fff;
+  border: 2px solid $mainDarkColor;
+}
+ol.hukidasi-list li:before {
+  counter-increment: list;
+  content: counter(list);
+  position: absolute;
+  left: 0px;
+  width: 30px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  line-height: 40px;
+  background: $mainDarkColor;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+ol.hukidasi-list li:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 30px;
+  height: 0;
+  width: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 7px solid $mainDarkColor;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 @media screen and (min-width: 900px) {
   ul.cp_list li {
     font-size: 18px;

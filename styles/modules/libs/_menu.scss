@@ -144,7 +144,7 @@
     vertical-align: middle;
     text-decoration: none;
     letter-spacing: 0.1em;
-    color: #fff;
+    color: #000;
     border-radius: 0.5rem;
     border-bottom: 4px solid #666;
     border-radius: 100vh;
@@ -296,5 +296,12 @@
   }
   #brand-logo {
     font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  #main-in {
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }

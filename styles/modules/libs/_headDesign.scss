@@ -13,91 +13,15 @@
 //   align-items: center;
 // }
 
-p.head-text1 {
-  position: absolute;
-  top: 70px;
-  font-size: 26px;
-  padding-left: 15px;
-  padding-right: 25px;
-  color: #fff;
-  line-height: 2.2em !important;
-  background-color: $mainDarkColor;
-  z-index: 5;
-  font-weight: 600;
-}
-p.head-text2 {
-  position: absolute;
-  top: 140px;
-  font-size: 26px;
-  padding-left: 15px;
-  padding-right: 25px;
-  color: #fff;
-  line-height: 2.2em !important;
-  background-color: $mainDarkColor;
-  z-index: 5;
-  font-weight: 600;
-}
-p.head-text3 {
-  position: absolute;
-  top: 210px;
-  font-size: 26px;
-  padding-left: 15px;
-  padding-right: 25px;
-  color: #fff;
-  line-height: 2.2em !important;
-  background-color: $mainDarkColor;
-  z-index: 5;
-  font-weight: 600;
-}
-
-img.main-img {
-  filter: blur(2px);
-  filter: grayscale(80%);
-  height: 400px;
-  object-fit: cover;
-  width: fit-content;
-  clip-path: polygon(0 0, 100% 0, 35% 100%, 0% 100%);
-}
-
 #main-visual {
   position: relative;
-  height: 400px;
+  height: 75vh;
+  width: auto;
+  /* width: 100vh; */
+  padding-top: -142px;
   object-fit: contain;
   overflow: hidden;
-  background: url(../../../images/newtopimage.jpg) no-repeat center/cover;
-}
-
-@media screen and (min-width: 767px) {
-  p.head-text1 {
-    top: 30px;
-    font-size: 40px;
-    padding-left: 35px;
-    padding-right: 70px;
-    line-height: 1.9em !important;
-  }
-  p.head-text2 {
-    position: absolute;
-    top: 140px;
-    font-size: 40px;
-    padding-left: 35px;
-    padding-right: 70px;
-    color: #fff;
-    line-height: 1.9em !important;
-    background-color: $mainDarkColor;
-    z-index: 5;
-  }
-  p.head-text3 {
-    position: absolute;
-    top: 250px;
-    font-size: 40px;
-    padding-left: 35px;
-    padding-right: 70px;
-    color: #fff;
-    line-height: 1.9em !important;
-    background-color: $mainDarkColor;
-    z-index: 5;
-  }
-}
-
-@media screen and (max-width: 567px) {
+  background: url(../../../images/mobilemainvisual.webp) no-repeat;
+  background-size: 100% auto;
+  background-position: 0px 54px;
 }

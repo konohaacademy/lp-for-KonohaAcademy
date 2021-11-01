@@ -235,7 +235,7 @@
 }
 
 .pricing-header {
-  color: #777;
+  color: #000;
   font-weight: 600;
   letter-spacing: 1px;
   margin: 12px;
@@ -245,7 +245,7 @@
   font-weight: 600;
   letter-spacing: 1px;
   margin: 10px 0 15px;
-  color: #777;
+  color: #000;
 }
 
 .pricing-features-item {
@@ -262,16 +262,16 @@
 }
 
 .pricing-price {
-  color: $mainDarkColor;
+  color: #000;
   display: block;
   font-size: 32px;
   font-weight: 700;
 }
 
 .pricing-button {
-  border: solid 1px $mainDarkColor;
+  border: solid 1px #000;
   border-radius: 10px;
-  color: $mainDarkColor;
+  color: #000;
   display: inline-block;
   margin: 15px 0px 20px;
   padding: 15px 35px;
